@@ -15,7 +15,7 @@ if [[ $currentDirectory != "PowerBlock" ]]; then
     if [[ -d PowerBlock ]]; then
         rm -rf PowerBlock
     fi
-    git clone --recursive git://github.com/petrockblog/PowerBlock
+    git clone --recursive git://github.com/ontje/PowerBlock
     cd PowerBlock
 fi
 
